@@ -36,7 +36,7 @@ def game_play(game, tries = 0):
 
                     if game[1] == game[4] == game[7] and game[1] != "-":
                         print(f"Yay {player} won")
-      
+                    
                     if game[2] == game[4] == game[6] and game[2] != "-":
                         print(f"Yay {player} won")
 
@@ -63,5 +63,5 @@ def game_play(game, tries = 0):
                         print("Print enter Yes or No")
             else:
                 print("Number out of range")
-        
+      
 game_play(game)
